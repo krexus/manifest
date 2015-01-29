@@ -479,7 +479,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
