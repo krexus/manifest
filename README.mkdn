@@ -1,9 +1,13 @@
 Icarus
+=============
 "Stock, as it should be" 
 
-Manifest for android-5.1 (latest is 5.1.1-r3)
+Manifest
+-------------
+Android 5.1 (latest is 5.1.1-r4)
 
-repo init -u https://github.com/project-icarus/android_manifest.git -b icarus-5.1
+`repo init -u https://github.com/project-icarus/android_manifest.git -b icarus-5.1`
 
-
+Credits
+------------
 Huge thanks to Rastapop and [@rascarlo](https://plus.google.com/+CarloDiNuccio/)
