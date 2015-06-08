@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.github.com/project-icarus/android_manifest/icarus-5.1/icarus-logo.png" width="300">
+</p>
+
 Icarus
 =============
 "Stock, as it should be" 
