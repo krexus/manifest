@@ -508,7 +508,7 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
   <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="lollipop-ras-mr1" />
-  <project path="vendor/icarus" name="android_vendor_icarus" remote="icarus" revision="lollipop-ras-mr1" />  
+  <project path="vendor/icarus" name="android_vendor_icarus" remote="icarus" revision="icarus-5.1" />  
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="lollipop-ras-mr1" />
 
 </manifest>
