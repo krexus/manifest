@@ -506,7 +506,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/icarus" name="android_vendor_icarus" remote="icarus" revision="icarus-5.1" />    
-  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="lollipop-ras-mr1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="icarus" revision="icarus-5.1" />
   <project path="vendor/moto" name="android_vendor_moto" remote="icarus" revision="icarus-5.1" />
 
 </manifest>
