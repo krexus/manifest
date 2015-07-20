@@ -8,16 +8,15 @@ Icarus
 
 Manifest
 -------------
-Android 5.1.1 (latest is 5.1.1_r6)
+Android 5.1.1 (latest is 5.1.1_r5)
 
 `repo init -u https://github.com/project-icarus/android_manifest.git -b icarus-5.1`
 
 Credits
 ------------
 Huge thanks to:  
-[@rascarlo](https://plus.google.com/+CarloDiNuccio/) and Rastapop  
-[CallMeAldy](https://github.com/CallMeAldy) and [Minimal OS](https://github.com/MinimalOS)  
+[rascarlo](https://plus.google.com/+CarloDiNuccio/) and Rastapop  
+[CallMeAldy](https://github.com/CallMeAldy), [bgill55](https://github.com/bgill55) and [Minimal OS](https://github.com/MinimalOS)  
 [ZephiK](https://github.com/zephiK) and [Chroma-Rom](https://github.com/Chroma-Aosp)  
 [Cyanogenmod](https://github.com/CyanogenMod)  
 AOSP  
-
