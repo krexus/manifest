@@ -7,7 +7,7 @@
            fetch="git://github.com/rascarlo/" />
   <remote name="icarus"
            fetch="ssh://git@github.com/project-icarus/" />            
-  <default revision="refs/tags/android-5.1.1_r5"
+  <default revision="refs/tags/android-5.1.1_r9"
            remote="aosp"
            sync-j="4" />
 
