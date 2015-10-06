@@ -3,6 +3,8 @@
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
+  <remote name="krexus"
+           fetch="ssh://git@github.com/krexus/" />           
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
@@ -474,5 +476,8 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="vendor/krexus" name="android_vendor_krexus" remote="krexus" revision="mm" />    
+  <project path="vendor/lge" name="android_vendor_lge" remote="krexus" revision="icarus-5.1" />
+ 
 
 </manifest>
