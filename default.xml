@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="android_build" groups="pdk" remote="krexus" revision="mm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -476,8 +476,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/krexus" name="android_vendor_krexus" remote="krexus" revision="mm" />    
-  <project path="vendor/lge" name="android_vendor_lge" remote="krexus" revision="icarus-5.1" />
+  <project path="vendor/krexus" name="android_vendor_krexus" remote="krexus" revision="mm" />
  
-
 </manifest>
