@@ -28,6 +28,7 @@ Credits
 ------------
 Huge thanks to:  
 [CallMeAldy](https://github.com/CallMeAldy)		
+[Sykopompos](https://github.com/Sykopompos)		
 [rascarlo](https://plus.google.com/+CarloDiNuccio/)		
 [bgill55](https://github.com/bgill55)		
 [BeansTown106](https://github.com/BeansTown106)		
