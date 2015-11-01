@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.github.com/krexus/android_manifest/mm/krexus-logo.png" width="600">
+  <img src="https://raw.github.com/krexus/manifest/mm/krexus-logo.png" width="600">
 </p>
 
 
@@ -12,7 +12,7 @@ Manifest
 **Android 6.0** (latest is 6.0.0_r1)
 
 1. Initialize the marshmallow repo	
-`repo init -u https://github.com/krexus/android_manifest.git -b mm`
+`repo init -u https://github.com/krexus/manifest.git -b mm`
 
 2. Sync		
 `repo sync`
