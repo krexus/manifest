@@ -39,6 +39,8 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/lge/mako" name="device_lge_mako" groups="device,mako,broadcom_pdk,generic_fs"  remote="krexus" />
   <project path="device/lge/mako-kernel" name="device_lge_mako-kernel" groups="device,mako,broadcom_pdk,generic_fs" clone-depth="1" remote="krexus"  />  
+  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -467,4 +469,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
   <project path="vendor/lge" name="vendor_lge" remote="krexus" />
+  <project path="vendor/moto" name="vendor_moto" remote="krexus" />	
 </manifest>
