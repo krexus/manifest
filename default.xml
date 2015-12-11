@@ -37,6 +37,8 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="krexus" />
+  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="krexus" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="krexus" />
@@ -476,4 +478,5 @@
   <project path="vendor/lge" name="vendor_lge" remote="krexus" />
   <project path="vendor/moto" name="vendor_moto" remote="krexus" />	
   <project path="vendor/asus" name="vendor_asus" remote="krexus" />
+  <project path="vendor/huawei" name="vendor_huawei" remote="krexus" />
 </manifest>
