@@ -5,7 +5,7 @@
            fetch="https://android-review.googlesource.com/" />
   <remote  name="krexus"
            revision="mr1"
-           fetch="ssh://git@github.com/krexus/" />           
+           fetch="https://github.com/krexus/" />           
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-j="4" />
