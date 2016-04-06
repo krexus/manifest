@@ -4,9 +4,9 @@
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
   <remote  name="krexus"
-           revision="mr1"
+           revision="dr1.5"
            fetch="https://github.com/krexus/" />
-  <default revision="refs/tags/android-6.0.1_r17"
+  <default revision="refs/tags/android-6.0.1_r24"
            remote="aosp"
            sync-j="4" />
 
