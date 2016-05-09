@@ -4,9 +4,9 @@
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
   <remote  name="krexus"
-           revision="dr1.5"
+           revision="dr1.6"
            fetch="https://github.com/krexus/" />
-  <default revision="refs/tags/android-6.0.1_r24"
+  <default revision="refs/tags/android-6.0.1_r25"
            remote="aosp"
            sync-j="4" />
 
@@ -24,8 +24,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/asus/flo" name="device_asus_flo" groups="device,flo" remote="krexus" />		
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -41,12 +39,6 @@
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="krexus" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="krexus" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
-  <project path="device/lge/mako" name="device_lge_mako" groups="device,mako,broadcom_pdk,generic_fs"  remote="krexus" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" groups="device,mako,broadcom_pdk,generic_fs" remote="krexus"  />  
-  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
