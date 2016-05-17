@@ -37,6 +37,8 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="krexus" />
+  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="krexus" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/lge/mako" name="device_lge_mako" groups="device,mako,broadcom_pdk,generic_fs"  remote="krexus" />
@@ -442,6 +444,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
+  <project path="vendor/htc" name="vendor_htc" remote="krexus" revision="mm" />
   <project path="vendor/lge" name="vendor_lge" remote="krexus" revision="mm" />
   <project path="vendor/moto" name="vendor_moto" remote="krexus" revision="mm" />	
   <project path="vendor/asus" name="vendor_asus" remote="krexus" revision="mm" />
