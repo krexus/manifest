@@ -439,7 +439,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
   <project path="vendor/lge" name="vendor_lge" remote="krexus" revision="mm" />
-  <project path="vendor/moto" name="vendor_moto" remote="krexus" revision="mm" />	
-  <project path="vendor/asus" name="vendor_asus" remote="krexus" revision="mm" />
   <project path="vendor/huawei" name="vendor_huawei" remote="krexus" revision="mm" />
 </manifest>
