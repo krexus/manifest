@@ -9,7 +9,7 @@
 Manifest
 ========
 
-**Android 6.0.x** (latest is 6.0.1_r61)
+**Android 6.0.x** (latest is 6.0.1_r66)
 
 1. Initialize the marshmallow repo	
 `repo init -u https://github.com/krexus/manifest.git -b mr2`

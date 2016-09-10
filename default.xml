@@ -6,7 +6,7 @@
   <remote  name="krexus"
            revision="mr2"
            fetch="https://github.com/krexus/" />
-  <default revision="refs/tags/android-6.0.1_r61"
+  <default revision="refs/tags/android-6.0.1_r66"
            remote="aosp"
            sync-j="4" />
 
