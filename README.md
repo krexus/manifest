@@ -9,10 +9,10 @@
 Manifest
 ========
 
-**Android 7.0.x** (latest is 7.0.0_r4)
+**Android 7.0.x** (latest is 7.1.1_r4)
 
 1. Initialize the manifest repo	
-`repo init -u https://github.com/krexus/manifest.git -b n`
+`repo init -u https://github.com/krexus/manifest.git -b n+`
 
 2. Sync		
 `repo sync`
