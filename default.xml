@@ -6,6 +6,9 @@
   <remote  name="krexus"
            revision="n+"
            fetch="https://github.com/krexus/" />
+  <remote  name="krexus-partners"
+           revision="n+"
+           fetch="https://github.com/krexus-partners/" />
   <default revision="refs/tags/android-7.1.1_r4"
            remote="aosp"
            sync-j="4" />
@@ -28,14 +31,14 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
-  <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
+  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="krexus-partners" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="krexus" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="krexus" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" groups="device,hammerhead" remote="krexus" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus-partners" />
+  <project path="kernel/moto/shamu" name="kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus-partners" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -476,7 +479,13 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Krexus vendor -->
   <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
-  <project path="vendor/lge" name="vendor_lge" remote="krexus" />
+
+  <!-- OEM Vendors -->
+  <project path="vendor/huawei" name="vendor_huawei" groups="angler" remote="krexus-partners" />
+  <project path="vendor/moto" name="vendor_moto" groups="shamu" remote="krexus-partners" />
+  <project path="vendor/lge" name="vendor_lge" groups="bullhead,hammerhead" remote="krexus" />
 
 </manifest>
