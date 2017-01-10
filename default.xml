@@ -9,7 +9,7 @@
   <remote  name="krexus-partners"
            revision="n+"
            fetch="https://github.com/krexus-partners/" />
-  <default revision="refs/tags/android-7.1.1_r4"
+  <default revision="refs/tags/android-7.1.1_r9"
            remote="aosp"
            sync-j="4" />
 
