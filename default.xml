@@ -40,7 +40,7 @@
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="krexus" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" groups="device,hammerhead" remote="krexus" />
   <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus-partners" />
-  <project path="kernel/moto/shamu" name="kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus-partners" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
