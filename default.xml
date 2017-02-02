@@ -29,6 +29,8 @@
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/asus/flo" name="device_asus_flo" groups="device,flo" remote="krexus-partners" />
+  <project path="kernel/asus/flo" name="kernel_asus_flo" groups="device,flo" remote="krexus-partners" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="krexus-partners" />
@@ -486,6 +488,7 @@
   <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
 
   <!-- OEM Vendors -->
+  <project path="vendor/asus" name="vendor_asus" groups="flo" remote="krexus-partners" />
   <project path="vendor/htc" name="vendor_htc" groups="flounder" remote="krexus-partners" />
   <project path="vendor/huawei" name="vendor_huawei" groups="angler" remote="krexus-partners" />
   <project path="vendor/moto" name="vendor_moto" groups="shamu" remote="krexus-partners" />
