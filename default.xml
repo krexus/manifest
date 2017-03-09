@@ -34,15 +34,15 @@
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="krexus-partners" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
+  <project path="kernel/htc/flounder" name="kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="krexus-partners" />
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="krexus-partners" />
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="krexus-partners" />
   <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead" remote="krexus" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
+  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" groups="device,bullhead" remote="krexus" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="krexus" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" groups="device,hammerhead" remote="krexus" />
   <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus-partners" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
+  <project path="kernel/moto/shamu" name="kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="krexus-partners" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
