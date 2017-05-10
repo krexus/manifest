@@ -9,7 +9,7 @@
 Manifest
 --------
 
-**Android 7.1.x** (latest is 7.1.1_r24)
+**Android 7.1.x** (latest is 7.1.2_r4)
 
 1. Initialize the manifest repo		
 `repo init -u https://github.com/krexus/manifest.git -b n+`
