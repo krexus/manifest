@@ -533,4 +533,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Krexus vendor -->
+  <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
+
 </manifest>
