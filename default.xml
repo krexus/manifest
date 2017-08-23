@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/" />
   <remote  name="krexus"
            revision="o"
            fetch="https://github.com/krexus/" />
