@@ -9,7 +9,7 @@
 Manifest
 --------
 
-**Android 8.0.x** (latest is 8.0.0_r4)
+**Android 8.0.x** (latest is 8.0.0_r17)
 
 1. Initialize the manifest repo		
 `repo init -u https://github.com/krexus/manifest.git -b o`
