@@ -10,7 +10,6 @@
   <default revision="8.1"
            remote="gzosp"
            sync-f="true"
-           sync-c="true"
            sync-j="8" />
 
   <!-- GZOSP -->
