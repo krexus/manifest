@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="krexus"
+           fetch="https://github.com/krexus" />
+
+  <default revision="o+"
+           remote="krexus"
+           sync-f="true"
+           sync-j="8" />
+
+  <!-- Krexus -->
+  <project path="manifest" name="manifest" remote="krexus" />
+  <project path="build/make" name="build" remote="krexus" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="frameworks/base" name="frameworks_base" remote="krexus" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
+  <project path="system/core" name="system_core" groups="pdk" remote="krexus" />
+  <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
+
+</manifest>
