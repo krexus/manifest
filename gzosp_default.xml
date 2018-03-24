@@ -5,8 +5,10 @@
            fetch="https://github.com" />
 
   <remote  name="gzosp"
-           fetch="https://github.com/GZOSP"
-           revision="8.1"
+           fetch="https://github.com/GZOSP" /> 
+
+  <default revision="8.1"
+           remote="gzosp"
            sync-f="true"
            sync-j="8" />
 

@@ -2,10 +2,8 @@
 <manifest>
 
   <remote  name="krexus"
-           fetch="https://github.com/krexus" />
-
-  <default revision="o+"
-           remote="krexus"
+           fetch="https://github.com/krexus"
+           revision="o+"
            sync-f="true"
            sync-j="8" />
 
