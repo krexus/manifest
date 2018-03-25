@@ -20,6 +20,7 @@
   </project>
 
   <project path="frameworks/base" name="frameworks_base" remote="krexus" />
+  <project path="packages/apps/RootlessPixelLauncher" name="packages_apps_RootlessPixelLauncher" remote="krexus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
   <project path="system/core" name="system_core" groups="pdk" remote="krexus" />
   <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
