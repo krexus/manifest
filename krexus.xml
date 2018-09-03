@@ -13,6 +13,7 @@
   </project>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="krexus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="krexus" />
 
   <!-- Extra repos -->
   <project path="platform_manifest" name="manifest" remote="krexus" />
