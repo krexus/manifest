@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Aosp Forks -->
-  <project path="bionic" name="platform/bionic" groups="pdk" remote="krexus" />
+  <project path="bionic" name="bionic" groups="pdk" remote="krexus" />
   <project path="build/make" name="build" groups="pdk" remote="krexus" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -12,11 +12,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="krexus" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="krexus" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="krexus" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="krexus" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="krexus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="krexus" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="krexus" />
 
   <!-- Extra repos -->
   <project path="platform_manifest" name="manifest" remote="krexus" />
