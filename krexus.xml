@@ -13,6 +13,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="krexus" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="krexus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="krexus" />
 
