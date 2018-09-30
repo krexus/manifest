@@ -24,5 +24,6 @@
 
   <!-- Extra repos -->
   <project path="platform_manifest" name="manifest" remote="krexus" />
+  <project path="vendor/krexus" name="vendor_krexus" remote="krexus" />
 
 </manifest>
