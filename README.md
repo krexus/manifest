@@ -15,7 +15,7 @@ Manifest
 `repo init -u https://github.com/krexus/manifest.git -b p`
 
 2. Sync		
-`repo sync`
+`repo sync -c --no-tags`
  
 3. Lunch		
 `lunch`
