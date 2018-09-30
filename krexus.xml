@@ -12,12 +12,15 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead,pdk" remote="krexus" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="krexus" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="krexus" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="krexus" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="krexus" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="krexus" />
+
+  <!-- Devices -->
+  <project path="device/lge/bullhead" name="device_lge_bullhead" groups="device,bullhead,pdk" remote="krexus" />
+  <project path="device/google/marlin" name="device_google_marlin" groups="device,bullhead,pdk" remote="krexus-partners" />
 
   <!-- Extra repos -->
   <project path="platform_manifest" name="manifest" remote="krexus" />

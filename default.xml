@@ -9,6 +9,9 @@
   <remote  name="krexus"
            revision="p"
            fetch="https://github.com/krexus/" />
+  <remote  name="krexus-partners"
+           revision="p"
+           fetch="https://github.com/krexus-partners/" />
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -48,7 +51,6 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
-  <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin,pdk" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin,pdk" clone-depth="1" />
   <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie,pdk" />
   <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen,pdk" />
